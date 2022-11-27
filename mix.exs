@@ -25,7 +25,7 @@ defmodule Userfs.MixProject do
 
   defp deps do
     [
-      {:efuse, "~> 1.0.2"},
+      {:efuse, github: "Zinggi/erlang-efuse", branch: "otp-25"},
       {:dialyxir, "~> 0.5.0", only: [:dev, :test], runtime: false},
       {:ex_doc, ">= 0.20.2", only: [:dev], runtime: false},
       {:excoveralls, "~> 0.11.1", only: [:test], runtime: false},
